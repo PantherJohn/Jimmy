@@ -128,7 +128,7 @@ extern WINDIVERTEXPORT HANDLE WinDivertOpen(
     __in        UINT64 flags);
 
 /*
- * Receive (read) a packet from a WinDivert handle.
+ * Receive (read) a packetDst from a WinDivert handle.
  */
 extern WINDIVERTEXPORT BOOL WinDivertRecv(
     __in        HANDLE handle,
@@ -138,7 +138,7 @@ extern WINDIVERTEXPORT BOOL WinDivertRecv(
     __out_opt   UINT *readLen);
 
 /*
- * Receive (read) a packet from a WinDivert handle.
+ * Receive (read) a packetDst from a WinDivert handle.
  */
 extern WINDIVERTEXPORT BOOL WinDivertRecvEx(
     __in        HANDLE handle,
@@ -150,7 +150,7 @@ extern WINDIVERTEXPORT BOOL WinDivertRecvEx(
     __inout_opt LPOVERLAPPED lpOverlapped);
 
 /*
- * Send (write/inject) a packet to a WinDivert handle.
+ * Send (write/inject) a packetDst to a WinDivert handle.
  */
 extern WINDIVERTEXPORT BOOL WinDivertSend(
     __in        HANDLE handle,
@@ -160,7 +160,7 @@ extern WINDIVERTEXPORT BOOL WinDivertSend(
     __out_opt   UINT *writeLen);
 
 /*
- * Send (write/inject) a packet to a WinDivert handle.
+ * Send (write/inject) a packetDst to a WinDivert handle.
  */
 extern WINDIVERTEXPORT BOOL WinDivertSendEx(
     __in        HANDLE handle,
@@ -345,7 +345,7 @@ typedef struct
 #define WINDIVERT_HELPER_NO_UDP_CHECKSUM                    16
 
 /*
- * Parse IPv4/IPv6/ICMP/ICMPv6/TCP/UDP headers from a raw packet.
+ * Parse IPv4/IPv6/ICMP/ICMPv6/TCP/UDP headers from a raw packetDst.
  */
 extern WINDIVERTEXPORT BOOL WinDivertHelperParsePacket(
     __in        PVOID pPacket,

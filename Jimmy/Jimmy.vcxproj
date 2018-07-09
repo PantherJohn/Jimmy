@@ -127,7 +127,6 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ws2_32.lib;WinDivert.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalOptions>106.14.132.49 16880-&gt;80</AdditionalOptions>
       <AdditionalLibraryDirectories />
     </Link>
     <ProjectReference>
@@ -152,7 +151,6 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ws2_32.lib;WinDivert.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalOptions>106.14.132.49 16880-&gt;80</AdditionalOptions>
       <AdditionalLibraryDirectories />
     </Link>
     <ProjectReference>
